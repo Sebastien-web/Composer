@@ -1,0 +1,19 @@
+{
+    "name": "sebastien/composer",
+    "description": "ProjetComposer",
+    "authors": [
+        {
+            "name": "Sebastien Comberousse",
+            "email": "scomberousse@gmail.com"
+        }
+    ],
+    "require": {
+        "swiftmailer/swiftmailer": "^6.2",
+        "ehime/hello-world": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "HelloWorld": "vendor/ehime/hello-world/src/"
+        }
+    }
+}
